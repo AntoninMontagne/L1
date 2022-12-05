@@ -1,0 +1,30 @@
+p{
+	font-family: 'Montserrat', sans-serif;
+	text-indent: 20px;
+	width: 1000px;
+}
+
+.home{
+	background-color: #dfb988; /* eclaire le bouton sur de la page sur laquelle on se trouve*/
+}
+
+ul{
+	list-style-type: none;
+	font-style: italic;
+}
+
+img{
+	vertical-align: middle;
+}
+
+.gauche{
+	font-size: 200%;
+	text-align: left;
+}
+
+.droite{
+	font-size: 200%;
+	text-align: right;
+}
+
+

@@ -1,0 +1,94 @@
+.ville{
+	background-color: #dfb988; /* eclaire le bouton sur de la page sur laquelle on se trouve*/
+}
+
+#intro{
+	width: 1000px;
+	text-align: center;
+	font-size: 125%;
+}
+
+#conteneur{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 15px;
+}
+
+article{
+	border-radius: 10px;
+	font-size: 110%;
+	padding: 10px;
+	height: 895px; /* hauteur pour laisser la place à l'image de bas d'article*/
+}
+
+article h2{
+	text-align: center;
+	font-size: 150%;
+}
+
+.miami{
+	background-color: #cc5d5dbf;
+	height: 100%;
+}
+
+.miami article{  /* image de bas d'article*/
+	background-image: url("Photo/miami-50555_640.jpg");
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+}
+
+.miami h2{ /*drapeau*/
+	background-image: url("Drapeaux/640px-Flag_of_Miami,_Florida.svg.png");
+	background-repeat: no-repeat;
+	background-position: 40px;
+	padding-top: 25px;
+	height: 40px;
+}
+
+.jacksonville{
+	background: linear-gradient(to right,#d36f6f,#feb05c);
+}
+
+.jacksonville article{ /* image de bas d'article*/
+	background-image: url("Photo/jacksonville-downtown-1147013_640.jpg");
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+}
+
+.jacksonville h2{ /*drapeau*/
+	background-image: url("Drapeaux/640px-Flag_of_Jacksonville,_Florida.svg.png");
+	background-repeat: no-repeat;
+	background-position: 40px;
+	padding-top: 25px;
+	padding-left: 45px;
+	height: 40px;
+}
+
+.orlando{
+	background-color: #fea347c4;
+}
+
+.orlando article{ /* image de bas d'article*/
+	background-image: url("Photo/orlando-1104481_640.jpg");
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+}
+
+.orlando h2{ /*drapeau*/
+	background-image: url("Drapeaux/640px-Flag_of_Orlando,_Florida.svg.png");
+	background-repeat: no-repeat;
+	background-position: 40px;
+	padding-top: 25px;
+	padding-left: 15px;
+	height: 40px;
+}
+
+article p{
+	text-align: justify;
+}
+
+@media (max-width: 1439px){
+	article{
+		height: 1000px;
+	}
+}

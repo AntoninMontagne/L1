@@ -1,0 +1,61 @@
+.parc{
+	background-color: #dfb988; /* eclaire le bouton sur de la page sur laquelle on se trouve*/
+}
+
+hr{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+div{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+section{
+	display: grid;
+	grid-template-rows: 50px 1fr 1fr;
+}
+
+section h3{
+	text-align: center;
+	margin-top: 6px;
+	font-size: 200%;
+	color: #48413b;
+	font-family: 'Montserrat', sans-serif;
+}
+
+article{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 5px;
+	margin-bottom: 20px;
+}
+
+#disney{
+	background-image: url("Fond/florida-4923565_1920.jpg");
+	background-repeat: no-repeat;
+}
+
+#universal{
+	background-image: url("Fond/universal-studios-1640516_1920.jpg");
+	background-repeat: no-repeat;
+}
+
+#everglades{
+	background-image: url("Fond/shield-4414120_1920.jpg");
+	background-repeat: no-repeat;
+}
+
+#everglades h3{
+	color: white;
+}
+
+article p{
+	font-weight: bold;
+	background-color: #ffffffcf;
+	padding: 5px;
+	margin: auto;
+}
+
+

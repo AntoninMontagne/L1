@@ -1,0 +1,51 @@
+.plage{
+	background-color: #dfb988; /* eclaire le bouton sur de la page sur laquelle on se trouve*/
+}
+
+p{
+	font-size: 125%;
+}
+
+article{
+	width: 1000px;
+	background-position-x: center;
+	background-position-y: bottom;
+}
+
+main h2{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#Key_West{
+	background-image: url("Photo/pexels-nextvoyage-2225499.jpg");
+	background-repeat: no-repeat;
+	height: 600px;
+}
+
+#Miami{
+	background-image: url("Photo/sea-3339751_640.jpg");
+	background-repeat: no-repeat;
+	height: 560px;
+}
+
+#Fort{
+	background-image: url("Photo/beach-1269647_640.jpg");
+	background-repeat: no-repeat;
+	height: 645px;
+}
+
+#Siesta{
+	background-image: url("Photo/beach-1092764_640.jpg");
+	background-repeat: no-repeat;
+	height: 620px;
+}
+
+#Daytona{
+	background-image: url("Photo/daytona-beach-1548305_640.jpg");
+	background-repeat: no-repeat;
+	height: 565px;
+}
+
+footer hr{
+	margin-top: 20px;
+}

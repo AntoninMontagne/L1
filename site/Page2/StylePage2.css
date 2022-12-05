@@ -1,0 +1,59 @@
+.fondation{
+	background-color: #dfb988; /* eclaire le bouton sur de la page sur laquelle on se trouve*/
+}
+
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+
+#intro{
+	grid-column: span 2;
+	width: 1000px;
+	text-align: center;
+	font-size: 125%;
+}
+
+article{
+	text-align: justify;
+	border: thick double;
+	font-size: 110%;
+	padding: 10px;
+}
+
+article h3, article h2{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#euro{
+	background: linear-gradient(to right,#ba0c0ce3,#fdfafa); /* la couleur du background se fond dans celle du body */
+}
+
+article p{
+	text-indent: 30px;
+}
+
+article figure{
+	float: left;
+	margin-left: 30px;
+}
+
+article figure:hover figcaption{
+	display: block;
+	background-color: white;
+	position: absolue;
+}
+
+figcaption{
+	display: none;
+	position: absolute;
+}
+
+
+#us{
+	background: linear-gradient(to right,#fefdfd,#ffa00c);
+}
+
+
